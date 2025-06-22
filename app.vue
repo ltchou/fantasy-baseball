@@ -1,9 +1,5 @@
 <template>
-  <div>
-    {{ pageTitle }}
-  </div>
+  <NuxtPage />
 </template>
 
-<script lang="ts" setup>
-const pageTitle = ref<string>('Welcome to Nuxt 3')
-</script>
+<script lang="ts" setup></script>
